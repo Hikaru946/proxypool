@@ -21,9 +21,29 @@
     
 - type: clash
   options:
-    url: https://proxypoolss.tk/clash/proxies
+    url: https://proxypoolss.tk/clash/proxies?filter=1
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+
+- type: clash
+  options:
+    url: https://proxypoolss.tk/clash/proxies?c=HK,TW,SG&speed=15,30
 
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
     url: https://drive.proxypoolv2.tk/node_v2.txt
+
+# 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+
+# 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://t.me/s/sharecentre
