@@ -19,7 +19,7 @@
   options:
     url: https://raw.githubusercontent.com/freefq/free/master/ssr
     
-- type: subscribe
+- type: clash
   options:
     url: https://proxypoolss.tk/clash/proxies
 
